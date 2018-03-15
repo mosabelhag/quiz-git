@@ -1,0 +1,108 @@
+/*
+Quiz Type : Git
+Author : by Mousab Elhag
+Date : 15/03/2018
+v : 1.0.0
+*/
+
+/* NOTE: start of Header */
+
+.header{
+  padding: 20px 0;
+  background-color: rgb(2, 0, 32);
+  color: #4ba0f3;
+}
+
+h1, h2{
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* NOTE: start of content */
+.content{
+  padding: 8px 0;
+  background-color: #fff;
+  color: rgb(2, 0, 32);
+}
+
+/* NOTE: start of footer */
+
+.footer{
+  padding: 7px 0;
+  background-color: rgb(2, 0, 32);
+  color: #fff;
+}
+
+/* NOTE: basic style */
+
+body {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow-x: hidden;
+  color: #c1baba;
+}
+
+img {
+  margin: 0 auto;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #4ba0f3;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #4ba0f3;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  padding-top: 40px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px #fff;
+  border: 1px solid #fff;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 30px;
+  width: 10px;
+  border: 1px solid #4ba0f3;
+  background: #4ba0f3;
+  -webkit-box-shadow: 0 1px 1px #4ba0f3;
+}
+
+::-webkit-scrollbar-track-piece {
+  cursor: pointer;
+  height: 30px;
+}
+
+.content img {
+    max-width: 38%;
+    display: block;
+    margin-bottom: 16px;
+}
+
